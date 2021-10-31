@@ -11,7 +11,7 @@ const Card = () => {
     fetch(`https://gory-village-18910.herokuapp.com/emaildata/${user?.email}`)
       .then((response) => response.json())
       .then((json) => setdata(json));
-  }, [])
+  }, [user.email])
 
   const deleteform = (id) => {
     fetch(`https://gory-village-18910.herokuapp.com/deleteForm/${id}`, {
