@@ -4,21 +4,21 @@ import Carousel from '../carousel/Carousel';
 import AboutUs from '../components/About/AboutUs';
 import TourDiary from '../components/TourDiary/TourDiary';
 import About from '../About/About';
-import fake from "../components/Tour/Tour.json"
+// import fake from "../components/Tour/Tour.json"
 
 const Header = () => {
 
-  const boom = () => {
-    fetch('https://gory-village-18910.herokuapp.com/addHome', {
-  method: 'POST',
-  body: JSON.stringify(fake),
-  headers: {
-    'Content-type': 'application/json; charset=UTF-8',
-  },
-})
-  .then((response) => response.json())
-  .then((json) => alert("succefully done"));
-  }
+//   const boom = () => {
+//     fetch('https://gory-village-18910.herokuapp.com/addHome', {
+//   method: 'POST',
+//   body: JSON.stringify(fake),
+//   headers: {
+//     'Content-type': 'application/json; charset=UTF-8',
+//   },
+// })
+//   .then((response) => response.json())
+//   .then((json) => alert("succefully done"));
+//   }
 
 
 

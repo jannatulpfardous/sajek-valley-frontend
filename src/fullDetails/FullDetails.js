@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 
 import { useParams } from 'react-router-dom';
 
-import tour from "../components/Tour/Tour.json";
+
 import {
 
   Link

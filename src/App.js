@@ -15,7 +15,6 @@ import Navbar from "./components/navbar/Navbar"
 import Login from "./Login/Login"
 import Private from "./Login/PrivateRouter"
 import Card from "./components/card/Card"
-import Notfound from "./components/no found/Nofound"
 import Footer from './components/Footer/Footer';
 import Facilities from "./components/Facilities/Facilities";
 

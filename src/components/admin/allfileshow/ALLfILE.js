@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import fake from "../../Tour/Tour.json";
 
 const ALLfILE = () => {
   const [data, setdata] = useState([]);

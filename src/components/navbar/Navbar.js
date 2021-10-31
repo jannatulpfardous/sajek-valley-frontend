@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Link, useHistory } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 // import { FaArtstation } from "react-icons/fa"
 
 
@@ -29,7 +29,7 @@ const Navbar = () => {
       {/* <FaArtstation /> */}
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <span style={{ fontFamily: "Besley" }}>Travel</span> <span style={{ color: "#4d4dfa", fontFamily: "Besley" }}> Nation </span></a>
+          <p> <span style={{ fontFamily: "Besley" }}>Travel</span> <span style={{ color: "#4d4dfa", fontFamily: "Besley" }}> Nation </span></p>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

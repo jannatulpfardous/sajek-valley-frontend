@@ -1,12 +1,10 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import "../../form/index.css";
-import { useHistory } from "react-router-dom";
 
 
 const Registration = () => {
 
-  const history = useHistory();
 
     const {
     register,

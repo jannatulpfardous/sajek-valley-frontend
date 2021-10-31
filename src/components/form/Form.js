@@ -1,7 +1,7 @@
-import React,{useState} from "react";
-import ReactDOM from "react-dom";
+
+
 import { useForm } from "react-hook-form";
-import { useParams } from 'react-router-dom'
+
 import { useHistory } from "react-router-dom";
 
 import "./index.css";
@@ -11,7 +11,7 @@ function Form() {
    const history = useHistory();
 
 
-    const [data, setdata] = useState([])
+    // const [data, setdata] = useState([])
 
   
 
@@ -145,6 +145,6 @@ function Form() {
     </div>
   );
 }
-export default Form
+export default Form;
 
 
