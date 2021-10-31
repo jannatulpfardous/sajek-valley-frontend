@@ -26,7 +26,7 @@ const NewAdmin = () => {
         <div>
             <div className="row" >
                 
-                <div className="col-2 bg-dark text-white" style={{ height: '100vh' }}>
+                <div className="col-2  bg-dark text-white" style={{ height: '100vh' }}>
 
                     <p className="btn ms-3 mt-5 pt-3 text-white" onClick={() => { boom(true) }}>ALL File</p> <br />
 

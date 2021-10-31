@@ -1,5 +1,7 @@
 import React from 'react';
-import pic from './Picture/Discover-sajek-valley.jpg'
+import pic from './Picture/Discover-sajek-valley.jpg';
+import "../carousel/Carousel.css";
+
 
 const About = () => {
     return (
@@ -45,8 +47,8 @@ const About = () => {
                     </div>
 
 
-                    <div class="col-lg-6 offset-1 col-md-12 col-sm-12 text-center">
-                        <img className="se2 mt-5 pt-2 rounded" src={pic} style={{height:"400px",width:"570px"}} alt="" />
+                    <div class="col-lg-6 offset-lg-1 offset-md-0 offset-sm-0 col-md-12 col-sm-12 text-center">
+                        <img className="se2 mt-5 pt-2 rounded img-car" src={pic}  alt="" />
                     </div>
 
 

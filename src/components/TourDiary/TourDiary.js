@@ -47,7 +47,7 @@ const TourDiary = () => {
                   <div className="rounded-3 shadow ps-4 ">
                     <img
                       className="rounded-3 mt-3"
-                      style={{ height: "200px", width: "200px" }}
+                      style={{ height: "300px", width: "300px" }}
                       src={v.img}
                       alt=""
                     />

@@ -19,6 +19,7 @@ import Footer from './components/Footer/Footer';
 import Facilities from "./components/Facilities/Facilities";
 
 
+
 function App() {
   return (
     <div className="App">
@@ -50,14 +51,11 @@ function App() {
           <Private exact path="/card">
             <Card />
           </Private>
-          <Private exact path="/facilities">
+          <Route exact path="/facilities">
             <Facilities />
-          </Private>
+          </Route>
           
-
-        
-          
-           <Private  path="/fulldetails/:id">
+           <Private exact path="/fulldetails/:id">
             <FullDetails />
           </Private>
 

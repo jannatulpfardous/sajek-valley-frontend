@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../../carousel/Carousel.css';
 
 
 const Facilities = () => {
@@ -14,7 +14,7 @@ const Facilities = () => {
 
 
                     <div class="col">
-                        <img class="aboutImage" style={{ objectFit:"none", height: '650px', width: '550px' }}  src="https://ttg.com.bd/uploads/tours/hotels/164_51375727_299935717373936_5341332882491179008_njpg.jpg" alt="" />
+                        <img class="aboutImage img-car"   src="https://ttg.com.bd/uploads/tours/hotels/164_51375727_299935717373936_5341332882491179008_njpg.jpg" alt="" />
 
                     </div>
 

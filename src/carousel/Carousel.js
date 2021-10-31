@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Carousel.css"
 
 const Carousel = () => {
     return (
@@ -11,7 +12,7 @@ const Carousel = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active ">
-                        <img style={{ objectFit: "none", height: '450px', width: '550px' }}
+                        <img className="img-car"
 
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sajek_Valley_Rangamati_3.jpg/1280px-Sajek_Valley_Rangamati_3.jpg" class="d-block w-100" alt="..." />
 
@@ -20,31 +21,31 @@ const Carousel = () => {
                             <p style={{ color: "white", fontFamily: "Besley" }}> "A Unique Tourist Spot Our Motherland"</p>
                             
                             
-                            <button class="btn btn-primary rounded-pill btn-lg" style={{ fontFamily: "Besley" }}>Explore Now</button>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-                        <img style={{ objectFit: "none", height: '450px', width: '550px' }}
-                            src="https://i.pinimg.com/originals/ba/c2/e8/bac2e850e80ae97e7f3cba63a730626c.jpg" class="d-block w-100" alt="..." />
-                        
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1 style={{ color: "white", fontFamily: "Besley" }}>“Sajek Valley Resort:</h1>
-                            <p style={{ color: "white", fontFamily: "Besley" }}> "Journey Through Sajek Valley of Bangladesh Our Motherland"</p>
-                            <button class="btn btn-primary rounded-pill btn-lg" style={{ fontFamily: "Besley" }}>Explore Now</button>
                             
                         </div>
 
                     </div>
                     <div class="carousel-item">
-                        <img style={{ objectFit: "none", height: '450px', width: '550px' }}
+                        <img className="img-car"
+                            src="https://i.pinimg.com/originals/ba/c2/e8/bac2e850e80ae97e7f3cba63a730626c.jpg" class="d-block w-100" alt="..." />
+                        
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 style={{ color: "white", fontFamily: "Besley" }}>“Sajek Valley Resort:</h1>
+                            <p style={{ color: "white", fontFamily: "Besley" }}> "Journey Through Sajek Valley of Bangladesh Our Motherland"</p>
+                           
+                            
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img className="img-car"
                             src="https://www.bdbooking.com/upload/property/hotel/111220200305546335fad090287150.jpg" class="d-block w-100" alt="..." />
                         
                         <div class="carousel-caption d-none d-md-block">
                             <h1 style={{ color: "white", fontFamily: "Besley" }}>"Sajek Valley Resort:</h1>
                             <p style={{ color: "white", fontFamily: "Besley" }}> Discovering The Land Of Hills And Clouds"</p>
                            
-                            <button class="btn btn-primary rounded-pill btn-lg" style={{ fontFamily: "Besley" }}>Explore Now</button>
+                            
                         </div>
 
                     </div>

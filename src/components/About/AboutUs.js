@@ -1,4 +1,5 @@
 import React from 'react';
+import "../../carousel/Carousel.css";
 
 const AboutUs = () => {
     return (
@@ -10,8 +11,8 @@ const AboutUs = () => {
                     <hr />
                     <br />
 
-                    <div class="col">
-                        <img class="aboutImage" style={{ objectFit: "none", height: '450px', width: '550px' }} src="https://rodipedia7.files.wordpress.com/2018/02/pexels-photo-6723583.jpeg" alt="" />
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <img class="aboutImage img-car"  src="https://rodipedia7.files.wordpress.com/2018/02/pexels-photo-6723583.jpeg" alt="" />
 
                     </div>
 

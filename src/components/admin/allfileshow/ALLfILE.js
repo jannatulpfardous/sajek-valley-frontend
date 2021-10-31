@@ -50,16 +50,17 @@ const ALLfILE = () => {
       </div></div> : <div>
         {data.map((v) => (
           <div className="mt-5 ">
-            <div className="row offset-1">
-              <div className="col-3">{v.email}</div>
-              <div className="col-2">{v.usernumber}</div>
-              <div className="col-2">{v.resort}</div>
-              <div className="col-2"><p className="text-danger" onClick={() => omyGod(v._id)}><button className="btn btn-danger">{v.value} </button></p></div>
+            <div className="row offset-lg-1 offset-md-0 offset-sm-0">
+              <div className="col-lg-3 col-md-12 col-sm-12">{v.email}</div>
+              <div className="col-lg-2 col-md-12 col-sm-12">{v.usernumber}</div>
+              <div className="col-lg-2 col-md-12 col-sm-12">{v.resort}</div>
+              <div className="col-lg-2 col-md-12 col-sm-12"><p className="text-danger" onClick={() => omyGod(v._id)}><button className="btn btn-danger">{v.value} </button></p></div>
+              
 
 
 
 
-              <div className="col-3">
+              <div className="col-lg-2 col-md-12 col-sm-12">
                 <button
                   className="btn btn-danger"
                   onClick={() => deleteform(v._id)}
@@ -67,6 +68,7 @@ const ALLfILE = () => {
                   delete
                 </button>
               </div>
+              
             </div>
           </div>
         ))}
